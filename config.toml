@@ -1,0 +1,54 @@
+baseURL = "www.igsl.com.pk"
+languageCode = "en-us"
+title = "Innovative Gases Solutions"
+
+[params]
+# In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
+google_analytics_id = ""
+google_tag_manager_id = ""
+
+[params.homepage]
+show_call_box = true
+
+[params.logo]
+mobile = "images/logo/logo-mobile.svg"
+# desktop = "images/logo/logo.svg"
+desktop_height = "36px"
+alt = "Innovative Gases Solutions"
+
+[params.homepage_meta_tags]
+meta_description = "At Innovative Gases Solutions, our mission is “Providing specialty, medical, and industrial gases through adaptive, innovative and responsive solutions and services. Leading-edge technical expertise, problem solving and innovation, from people you know and trust."
+meta_og_title = "Innovative Gases Solutions"
+meta_og_type = "website"
+meta_og_url = "https://igsl.netlify.app"
+meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
+meta_og_description = "At Innovative Gases Solutions, our mission is “Providing specialty, medical, and industrial gases through adaptive, innovative and responsive solutions and services. Leading-edge technical expertise, problem solving and innovation, from people you know and trust."
+meta_twitter_card = "summary"
+meta_twitter_site = "@ahmadkakarr"
+meta_twitter_creator = "@ahmadkakarr"
+
+[params.footer]
+copyright_text = 'Website is Design and Developed by <a class="zerostatic" href="https://www.ahmad.how">Digital Studio</a>'
+
+[menu]
+# Main Menu
+[[menu.main]]
+name = "Services"
+url = "/services/"
+weight = 1
+
+[[menu.main]]
+name = "Team"
+url = "/team/"
+weight = 2
+
+# Footer Menu
+[[menu.footer]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.footer]]
+name = "Contact"
+url = "/contact/"
+weight = 2
